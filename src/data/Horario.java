@@ -14,6 +14,8 @@ public class Horario {
     public static void main(String[] args) throws ParseException {
        
         System.out.printf("Bom dia");
+        System.out.printf("Bom tarde");
+        System.out.printf("Bom noiute");
         
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
